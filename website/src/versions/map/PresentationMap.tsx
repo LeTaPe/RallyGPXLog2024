@@ -46,7 +46,7 @@ export const PresentationMap = () => {
 
     return (
         <div onMouseLeave={() => dispatch(mapActions.setHighlightedTrack())}>
-            <div id="mapid" style={{ height: '100vh', zIndex: 0 }} />
+            <div id="mapid" style={{ height: '100vh', width: '100%', zIndex: 0 }} />
         </div>
     );
 };
